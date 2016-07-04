@@ -1,0 +1,88 @@
+[ 2016-07-04T15:14:27+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0010s ]
+
+[ 2016-07-04T15:31:20+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:33:54+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:36:34+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('13')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:38:54+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:39:54+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:40:22+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:26+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:06:44+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:07:58+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:08:22+08:00 ] 127.0.0.1 /index.php?g=Api&m=Rong&a=get_user_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_users` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`user_nicename`,`avatar` FROM `cms_users` WHERE `id` IN ('12','1')  [ RunTime:0.0010s ]
+

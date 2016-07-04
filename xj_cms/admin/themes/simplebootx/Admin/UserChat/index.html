@@ -1,0 +1,50 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('userChat/index')}">{:L('CHATSEARCH')}</a></li>
+			
+		</ul>
+        <form class="well form-search" method="post" action="{:U('userChat/index')}">
+			分类：
+			<select class="select_2" name="term">
+				<option value='0' <php>if($formget['term']==0){echo 'selected="selected"';}</php> >全部</option>
+				<option value='1' <php>if($formget['term']==1){echo 'selected="selected"';}</php>>有关人员</option>
+				<option value='2' <php>if($formget['term']==2){echo 'selected="selected"';}</php>>聊天内容</option>
+			</select> &nbsp;&nbsp;
+			时间：
+			<input type="text" name="start_time" class="js-date" value="{$formget.start_time|default=''}" style="width: 80px;" autocomplete="off">-
+			<input type="text" class="js-date" name="end_time" value="{$formget.end_time}" style="width: 80px;" autocomplete="off"> &nbsp; &nbsp;
+			关键字： 
+			<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="请输入关键字...">
+			<input type="submit" class="btn btn-primary" value="搜索" />
+			<font color='red' style="margin-left: 15px;">默认查询今天的</font>
+		</form>
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th width="210">{:L('SENDER')}</th>
+					<th width="210">{:L('RECEIVER')}</th>
+					<th>{:L('CONTENT')}</th>
+					<th width="160">{:L('SENDTIME')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="chatlogs" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.fromid}[{$vo.fuser_nicename}]</td>
+					<td>{$vo.toid}[{$vo.tuser_nicename}]</td>
+					<td>{$vo.content}</td>
+					<td>{$vo.sendtime|date='Y-m-d H:i:s',###}</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

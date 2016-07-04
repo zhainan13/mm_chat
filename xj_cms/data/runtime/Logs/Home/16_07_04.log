@@ -1,0 +1,427 @@
+[ 2016-07-04T14:59:12+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_options` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cms_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+ERR: 1366:Incorrect string value: '\xE7\xA4\xBA\xE8\xBF\x87...' for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','按时间快点哈空间里收到垃圾卡仕达啥事够好的噶是的噶是快点噶就是看到过阿萨德啊哈萨克等噶手工登记卡阿萨德刚考上好的噶课上的&lt;div&gt;按时还款的建安公司肯定干&lt;/div&gt;&lt;div&gt;暗示过路口大会顺利等一哈UI偶一等哈来上课的把那啥快递&amp;nbsp;&lt;/div&gt;','1467615552')
+ERR: 1366:Incorrect string value: '\xE7\xA4\xBA\xE8\xBF\x87...' for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','按时间快点哈空间里收到垃圾卡仕达啥事够好的噶是的噶是快点噶就是看到过阿萨德啊哈萨克等噶手工登记卡阿萨德刚考上好的噶课上的&lt;div&gt;按时还款的建安公司肯定干&lt;/div&gt;&lt;div&gt;暗示过路口大会顺利等一哈UI偶一等哈来上课的把那啥快递&amp;nbsp;&lt;/div&gt;','1467615552')
+
+[ 2016-07-04T14:59:17+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=12 AND toid=13) OR (fromid=13 AND toid=12) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T14:59:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','按时大大','1467615595') [ RunTime:0.0010s ]
+
+[ 2016-07-04T15:00:53+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家','1467615653') [ RunTime:0.0010s ]
+
+[ 2016-07-04T15:01:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;','1467615662')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;','1467615662')
+
+[ 2016-07-04T15:01:08+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;','1467615668')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;&lt;span style=&quot;font-size: 14px; line-height: 20px; background-color: rgb(215, 239, 255);&quot;&gt;安徽省科技等哈就考虑是大家了开始打了送达时间的卡和手机看的哈沙送达回数据库等哈说大家&lt;/span&gt;','1467615668')
+
+[ 2016-07-04T15:14:27+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:14:28+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:31:20+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:31:21+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:31:25+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:31:25+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:33:54+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:33:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:36:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=12 AND toid=13) OR (fromid=13 AND toid=12) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0030s ]
+
+[ 2016-07-04T15:38:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:38:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0030s ]
+
+[ 2016-07-04T15:39:57+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:40:24+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:40:29+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','按时大大说的','1467618029') [ RunTime:0.0010s ]
+
+[ 2016-07-04T15:53:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','爱莎航空','1467618839') [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:54:10+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','啊实打实的爱莎航空','1467618850') [ RunTime:0.0010s ]
+
+[ 2016-07-04T15:54:14+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=12 AND toid=1) OR (fromid=1 AND toid=12) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T15:54:20+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=12 AND toid=13) OR (fromid=13 AND toid=12) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:54:52+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:54:53+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:54:54+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T15:59:41+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:27+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:27+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:32+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:33+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:45+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0030s ]
+
+[ 2016-07-04T16:06:45+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:48+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:49+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:06:50+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0030s ]
+
+[ 2016-07-04T16:07:33+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:07:34+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:07:35+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:07:36+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:07:38+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:07:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:07:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0030s ]
+
+[ 2016-07-04T16:08:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:08:04+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:08:18+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','粟总杠杠滴，一下就搞定了&lt;div&gt;&lt;br&gt;&lt;/div&gt;','1467619698') [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:08:23+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:08:23+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:08:26+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=1) OR (fromid=1 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0010s ]
+
+[ 2016-07-04T16:08:31+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=get_contents
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cms_chat_log` WHERE ( (fromid=13 AND toid=12) OR (fromid=12 AND toid=13) ) ORDER BY sendtime desc LIMIT 100   [ RunTime:0.0020s ]
+
+[ 2016-07-04T16:08:45+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=save_content
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_chat_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cms_chat_log` (`fromid`,`toid`,`content`,`sendtime`) VALUES ('13','12','爱过谁记得噶是客观阿斯达&lt;div&gt;&amp;nbsp;&lt;/div&gt;','1467619725') [ RunTime:0.0010s ]
+
